@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: "Lato", sans-serif;
+  font-size: clamp(1.2rem, 4vw, 1.6rem);
+  line-height: 1;
+  background-color: #f2f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  color: #111729;
+  background-color: #ffffff;
+  width: min(40rem, 100%);
+  border-radius: 1.4rem;
+  overflow: hidden;
+  line-height: 1.4;
+}
+.card__content {
+  padding: 0 2rem 2rem;
+}
+.card__author {
+  padding: 2rem;
+}
+.card__img-box {
+  position: relative;
+}
+.card__img {
+  display: block;
+  width: 100%;
+}
+.card__overlay {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: -2px;
+}
+.card__title {
+  margin-bottom: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  line-height: 1.5;
+}
+.card__description {
+  color: #677489;
+}
+.card__author {
+  border-top: 1px solid #f2f5f9;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.card__author-img {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  border: 4px solid #f2f5f9;
+  border-radius: 100%;
+}
+.card__author-name {
+  font-weight: 700;
+}
+.card__author-title {
+  font-size: clamp(0.8rem, 4vw, 1.2rem);
+  color: #677489;
+}/*# sourceMappingURL=main.css.map */
